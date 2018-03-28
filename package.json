@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node dist/app.js",
-    "build": "tsc",
-    "buildz": "copyfiles core/schema.graphql dist/ && tsc"
+    "build": "copyfiles core/schema.graphql dist/ && tsc"
   },
   "author": "",
   "license": "MIT",
