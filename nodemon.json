@@ -1,0 +1,15 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "dist"
+  ],
+  "verbose": true,
+  "watch": ["ctrl", "models", "core", "graphql"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts json graphql",
+  "exec": "npm run build && node dist/app.js"
+}
