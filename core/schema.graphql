@@ -1,7 +1,7 @@
 type Query {
     hello(name: String): String!
     post(id: ID!): Post
-    posts(): [Post]
+    posts: [Post]
 }
 
 type Post {
